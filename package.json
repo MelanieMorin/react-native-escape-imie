@@ -1,36 +1,26 @@
 ﻿{
-  "name": "@melaniemorin/react-native-escape-imie",
-  "version": "1.0.1",
-  "description": "Module pour le jeu Escape The IMIE",
-  "main": "index.js",
+  "name": "escape-imie",
+  "version": "0.1.1",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "^30.0.0",
+    "react-dom": "^16.6.1",
+    "react-test-renderer": "^16.5.0"
+  },
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "dependencies": {
-    "d3-interpolate": "^1.1.6",
-    "lodash": "^4.17.4",
-    "matter-js": "^0.13.0",
-    "react-native-animatable": "^1.2.4",
-    "react-native-extended-stylesheet": "^0.8.1",
-    "react-native-game-engine": "git+https://github.com/bberak/react-native-game-engine.git#rx-update",
-    "react-native-typewriter": "^0.5.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MelanieMorin/react-native-escape-imie.git"
-  },
-  "keywords": [
-    "react-native",
-    "react-native-game-engine"
-  ],
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "author": "Mélanie Morin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MelanieMorin/react-native-escape-imie/issues"
-  },
-  "homepage": "https://github.com/MelanieMorin/react-native-escape-imie#readme"
+    "expo": "^30.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-escape-imie": "^0.1.0"
+  }
 }
