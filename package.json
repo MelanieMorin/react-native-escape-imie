@@ -1,0 +1,36 @@
+{
+  "name": "react-native-escape-imie",
+  "version": "1.0.0",
+  "description": "Module pour le jeu Escape The IMIE",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "d3-interpolate": "^1.1.6",
+    "lodash": "^4.17.4",
+    "matter-js": "^0.13.0",
+    "react-native-animatable": "^1.2.4",
+    "react-native-extended-stylesheet": "^0.8.1",
+    "react-native-game-engine": "git+https://github.com/bberak/react-native-game-engine.git#rx-update",
+    "react-native-typewriter": "^0.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelanieMorin/react-native-escape-imie.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-game-engine"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "author": "Mélanie Morin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MelanieMorin/react-native-escape-imie/issues"
+  },
+  "homepage": "https://github.com/MelanieMorin/react-native-escape-imie#readme"
+}
