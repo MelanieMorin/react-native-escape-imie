@@ -1,2 +1,2 @@
 # react-native-escape-imie
-Module npm du coeur du jeu Escape The IMIE
+Projet UMake 2019, version 2
