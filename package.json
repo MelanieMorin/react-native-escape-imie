@@ -1,6 +1,6 @@
 ﻿{
   "name": "@melaniemorin/react-native-escape-imie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module pour le jeu Escape The IMIE",
   "main": "index.js",
   "scripts": {
