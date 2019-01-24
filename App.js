@@ -1,6 +1,6 @@
 import React from "react";
 import { AppLoading, Asset, Font } from 'expo';
-import DonkeyKong from "react-native-donkey-kong";
+import EscapeImie from "@melaniemorin/react-native-escape-imie";
 import Preload from "./Preload";
 
 export default class App extends React.Component {
@@ -26,9 +26,9 @@ export default class App extends React.Component {
     }
 
     return (
-      <DonkeyKong
+      <EscapeImie
         theme={{
-          $donkeyKongMenuFont: "ArcadeClassic"
+          $escapeImieMenuFont: "ArcadeClassic"
         }}
       />
     );

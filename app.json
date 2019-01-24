@@ -2,9 +2,9 @@
   "expo": {
     "sdkVersion": "30.0.0",
     "orientation": "portrait",
-    "name": "Donkey Kong Game",
-    "description": "A React Native remake of the classic Donkey Kong arcade game. This app uses the https://github.com/bberak/react-native-game-engine library.",
-    "githubUrl": "https://github.com/bberak/react-native-donkey-kong",
+    "name": "Escape The IMIE",
+    "description": "A React Native game. This app uses the https://github.com/bberak/react-native-game-engine library.",
+    "githubUrl": "https://github.com/MelanieMorin/EscapeTheImie",
     "privacy": "public",
     "primaryColor": "#000000",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,7 @@
     },
     "platforms": ["ios", "android"],
     "version": "1.0.2",
-    "slug": "donkey-kong-game",
+    "slug": "escape-the-imie",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
