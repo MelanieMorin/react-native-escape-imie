@@ -7,8 +7,8 @@ export default class Title extends PureComponent {
     return (
       <View style={styles.titleContainer}>
         <Text style={styles.titleH3}>{`React   Native   Presents`}</Text>
-        <Text style={styles.titleH1}>Donkey</Text>
-        <Text style={styles.titleH2}>Kong</Text>
+        <Text style={styles.titleH1}>Escape The</Text>
+        <Text style={styles.titleH2}>IMIE</Text>
       </View>
     );
   }
@@ -22,23 +22,23 @@ const styles = EStyleSheet.create({
   },
   titleH1: {
     fontSize: 60,
-    color: "$donkeyKongMenuPrimaryColor",
-    textShadowColor: "$donkeyKongMenuSecondaryColor",
+    color: "$escapeImieMenuPrimaryColor",
+    textShadowColor: "$escapeImieMenuSecondaryColor",
     textShadowOffset: { width: -1, height: 2 },
     textShadowRadius: 0,
-    fontFamily: "$donkeyKongMenuFont"
+    fontFamily: "$escapeImieMenuFont"
   },
   titleH2: {
     fontSize: 40,
-    color: "$donkeyKongMenuPrimaryColor",
-    textShadowColor: "$donkeyKongMenuSecondaryColor",
+    color: "$escapeImieMenuPrimaryColor",
+    textShadowColor: "$escapeImieMenuSecondaryColor",
     textShadowOffset: { width: -1, height: 2 },
     textShadowRadius: 0,
-    fontFamily: "$donkeyKongMenuFont"
+    fontFamily: "$escapeImieMenuFont"
   },
   titleH3: {
     fontSize: 15,
     color: "#FFF",
-    fontFamily: "$donkeyKongMenuFont"
+    fontFamily: "$escapeImieMenuFont"
   }
 });

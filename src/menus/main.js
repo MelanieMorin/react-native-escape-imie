@@ -54,10 +54,10 @@ export default class MainMenu extends PureComponent {
 
 const styles = EStyleSheet.create({
   container: {
-    backgroundColor: "$donkeyKongMenuBackgroundColor"
+    backgroundColor: "$escapeImieMenuBackgroundColor"
   },
   contentContainer: {
-    maxWidth: "$donkeyKongMenuMaxWidth",
+    maxWidth: "$escapeImieMenuMaxWidth",
     alignSelf: "center",
     alignItems: "center"
   }

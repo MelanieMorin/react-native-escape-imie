@@ -62,19 +62,19 @@ const styles = EStyleSheet.create({
 	scrollViewContainer: {
 		width: () =>
 			Math.min(
-				EStyleSheet.value("$donkeyKongMenuMaxWidth"),
+				EStyleSheet.value("$escapeImieMenuMaxWidth"),
 				Dimensions.get("window").width
 			),
 		alignSelf: "center",
 		justifyContent: "center"
 	},
 	playGameButton: {
-		maxWidth: "$donkeyKongMenuMaxWidth",
+		maxWidth: "$escapeImieMenuMaxWidth",
 		alignSelf: "center",
 		marginBottom: 0
 	},
 	cancelButton: {
-		maxWidth: "$donkeyKongMenuMaxWidth",
+		maxWidth: "$escapeImieMenuMaxWidth",
 		alignSelf: "center",
 		marginBottom: 30,
 		backgroundColor: "#ff4136"

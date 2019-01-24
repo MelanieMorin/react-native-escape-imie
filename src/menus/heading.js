@@ -73,6 +73,6 @@ const styles = EStyleSheet.create({
     marginBottom: 20,
     fontSize: 30,
     color: "#FFF",
-    fontFamily: "$donkeyKongMenuFont"
+    fontFamily: "$escapeImieMenuFont"
   }
 });

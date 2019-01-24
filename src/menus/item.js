@@ -36,7 +36,7 @@ export default class Item extends PureComponent {
 
   getColor = () => ({
     color: this.state.pressed
-      ? EStyleSheet.value("$donkeyKongMenuSecondaryColor")
+      ? EStyleSheet.value("$escapeImieMenuSecondaryColor")
       : "white"
   });
 
@@ -63,6 +63,6 @@ const styles = EStyleSheet.create({
     marginRight: 30,
     fontSize: 20,
     color: "#FFF",
-    fontFamily: "$donkeyKongMenuFont"
+    fontFamily: "$escapeImieMenuFont"
   }
 });

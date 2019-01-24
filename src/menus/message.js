@@ -47,7 +47,7 @@ const styles = EStyleSheet.create({
 		minHeight: 80
 	},
 	text: {
-		fontFamily: "$donkeyKongMenuFont",
+		fontFamily: "$escapeImieMenuFont",
 		fontSize: 18
 	}
 });
