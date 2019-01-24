@@ -7,7 +7,7 @@ import Game from "./src/game";
 const defaultTheme = {
   $escapeImieMenuMaxWidth: 500,
   $escapeImieMenuFont: Platform.OS === "ios" ? "System" : "normal",
-  $escapeImieMenuBackgroundColor: "black",
+  $escapeImieMenuBackgroundImage: URL('.src/components/imie/background-imie.png'),
   $escapeImieMenuPrimaryColor: "#2068E3",
   $escapeImieMenuSecondaryColor: "#00FFFF"//"#25D9D9"
 };

@@ -54,7 +54,8 @@ export default class MainMenu extends PureComponent {
 
 const styles = EStyleSheet.create({
   container: {
-    backgroundColor: "$escapeImieMenuBackgroundColor"
+    backgroundColor: "$escapeImieMenuBackgroundColor",
+    backgroundImage: "$escapeImieMenuBackgroundImage"
   },
   contentContainer: {
     maxWidth: "$escapeImieMenuMaxWidth",
